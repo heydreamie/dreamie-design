@@ -82,7 +82,7 @@ Dreamie Design 是一个按任务调用的视觉设计 Skill，覆盖版式、�
 
 ## 开始使用
 
-把仓库作为名为 `dreamie-design` 的技能目录安装到代理工具支持的位置，保留 `SKILL.md`、`references/` 等相对结构。也可以使用 [Releases 中的安装包](https://github.com/mengqianyu1216/dreamie-design/releases/latest)。
+把仓库作为名为 `dreamie-design` 的技能目录安装到代理工具支持的位置，保留 `SKILL.md`、`references/` 等相对结构。也可以使用 [Releases 中的安装包](https://github.com/heydreamie/dreamie-design/releases/latest)。
 
 安装后输入 `$dreamie-design`，再说明用途、受众、真实文案、参考图和必须保留的内容。例如：
 
