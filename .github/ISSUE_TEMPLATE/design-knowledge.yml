@@ -1,0 +1,40 @@
+name: 补充来源或设计反馈
+description: 为 Dreamie Design 登记新材料、真实应用问题或方法纠错。
+title: "[补充] "
+body:
+  - type: dropdown
+    id: kind
+    attributes:
+      label: 补充类型
+      options:
+        - 新书籍或资料
+        - 实际设计反馈
+        - 来源或方法纠错
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: 来源或任务
+      description: 写书名、版本、公开链接，或设计用途、受众与媒介。不要填私人本机路径、密钥或私人邮箱。
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 实际阅读或观察范围
+      description: 记录读过的章节与PDF页序、查看的图版，或真实应用中观察到的问题。未读和未验证部分请明确。
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: 希望改进的决策
+      description: 它应改变哪个专题的哪项判断？现有方法哪里不足？有无反例？
+    validations:
+      required: true
+  - type: textarea
+    id: permission
+    attributes:
+      label: 材料与验证限制
+      description: 说明素材使用条件、缺页、未核出处和未完成检查。不要上传整书、扫描合集或未获准分发的素材。
